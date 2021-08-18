@@ -1,0 +1,35 @@
+.buttons {
+  border-radius: 50%;
+  margin: 15px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-flex;
+  border: none;
+  outline: none;
+  background-size: contain;
+  cursor: pointer;
+
+  height: 52px;
+  width: 40px;
+}
+
+.btn:first-child {
+  background: url(./svg/smile.svg) center no-repeat;
+}
+
+.btn:nth-child(2n) {
+  background: url(./svg/neutral.svg) center no-repeat;
+}
+
+.btn:last-child {
+  background: url(./svg/sad.svg) center no-repeat;
+}
+
+/* .btn + .btn {
+  margin-left: 40px;
+  justify-content: center;
+} */

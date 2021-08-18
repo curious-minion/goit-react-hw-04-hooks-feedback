@@ -1,0 +1,22 @@
+.statistics {
+  /* padding-left: 30%; */
+  text-align: left;
+}
+
+.statistics_list {
+  padding: 0;
+  font-weight: 500;
+}
+.statistics_item {
+  list-style: none;
+}
+.statistics_item:first-child {
+  color: rgb(20, 177, 22);
+}
+
+.statistics_item:nth-child(2n) {
+  color: rgba(245, 170, 11, 0.73);
+}
+.statistics_item:last-child {
+  color: rgb(240, 16, 16);
+}
